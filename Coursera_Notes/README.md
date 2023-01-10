@@ -22,8 +22,8 @@
 ### Basic Structure of a blockchian:
 - Transaction: basic element of bitcoin blockchain
 - they're validated and broadcast
-- >1 transactions -> form a block
-- >1 block -> chain through a digital data link
+- many transactions -> form a block
+- many blocks -> chain through a digital data link
 - blocks need to be **verified** so they go through a **consensus** process to select next block that's to be added to the chian
 - this **validation and consensus** are carried out by special peer nodes called "**miners**".
 - miners: **powerful** computers executing the **software** that's defined by the "blockchain protocol".
