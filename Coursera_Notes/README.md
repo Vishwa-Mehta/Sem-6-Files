@@ -92,6 +92,7 @@
 - that solved block is **broadcast** -> participants reach consensus -> block added to chain and confirmed
 - block is also added to every local copy of the blockchain
 ![Pasted image 20230111194830](./6.png)
+![6](https://user-images.githubusercontent.com/83157662/211892064-b072c8dc-4807-4dc5-a333-711c69abe867.png)
 - algorithm for consensus : **Proof of Work** protocol
 - Index 0 of Transaction 0 is created by the miner of the block -> has a special UTXO and no **input** UTXO -> **Coinbase transaction** that generates -> **Miners fee** (currently 12.5BTC) -> new coint minted in bitcoin
 ## Beyond Bitcoin:
