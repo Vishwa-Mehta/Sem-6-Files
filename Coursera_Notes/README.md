@@ -96,3 +96,25 @@
 - algorithm for consensus : **Proof of Work** protocol
 - Index 0 of Transaction 0 is created by the miner of the block -> has a special UTXO and no **input** UTXO -> **Coinbase transaction** that generates -> **Miners fee** (currently 12.5BTC) -> new coint minted in bitcoin
 ## Beyond Bitcoin:
+- Bitcoin source code is open source and source code was extended to release diff cryptocurrencies
+- 300+ cruptocurrencies were introduced
+- BitCoin has a special feature -> **Scripts** -> for **conditional transfer** of values
+- **Ethereum** -> extended the feature to an execution framework -> **Smart Contracts**
+- Smart contracts provide -> ability of **code execution** -> embeds **business logic** on the blockchain
+- Based on this we have 3 types of blockchain:
+	1. Only coins in cryptocurrency. Ex: BitCoin
+	2. Cryptocurrency + Business logic layer. Ex: Ethereum
+	3.  Only Business Logic, No currency. Ex: Linux Foundation Hyperledger
+- Blockchain Categories (Based on Access Limits):
+	- Public
+		- Ex: BitCoin
+		- Wallet applications -> interface to transfer value through the chain
+	- Private
+		- Access to blockchain limited to selected participants
+		- Helps simplify operations : block creation and contingence model
+		- controlled access to blockchain
+	- Permissioned/Consortium
+		- meant for a grp of collaborating parties to transact on a blockchain to ease governance, provenance and accountability
+		- Ex: consortium of automobile companies
+		- Benefits of Public blockchain and allowing only users with permissions to transact and operate
+		- controlled access to blockchain
