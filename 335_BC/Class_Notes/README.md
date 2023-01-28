@@ -1,0 +1,118 @@
+## Public blockchain:
+- permissionless blockchains
+- users are anon in the nw
+- dev and add smart contracts w/o interference
+- how secure?
+	- transparency
+	- immutable ledger
+	- hashing
+- trustless peering
+- advantages:
+	- more secure
+	- more decentralised
+	- self governed
+	- user empowerment
+- disadvantages:
+	- high txn time
+	- high computational power
+	- less privacy
+	- id unrecognised
+## Private blockchain:
+- permissioned
+- controlled by a single org
+- don't allow any user
+- users id is known to all but txns are known only to those with perms
+- access control mech maintained
+- not fully decentralised
+- for those who wanna have control over data and can provide more privacy
+- ex: hyperledger fabric
+- has keys for users
+- features:
+	- distributed
+	- full replication
+	- immutability
+	- byzantine fault tolerant consensus
+	- high perf
+	- scalability
+	- strong durable crypto identification
+- adv
+	- full privacy
+	- more efficient
+	- resource saving
+- disadv
+	- permissioned - invite only
+	- not complete decentralisation
+	- security concerns
+	- partial data integrity
+- have their own use case and applications
+- use cases:
+	- financial services
+	- supply chain management
+	- healthcare
+	- real estate etc.
+- companies: Walmart, Comcast, BurstIQ, etc.
+- RWSet?
+## Consortium Blockchain:
+- aka Federated Blockchain
+- permissioned 
+- governed by grp of orgs
+- more decentralised than Pvt n/w
+- setting up consortiums are stressful
+- id of participants are known
+- no superior access
+- ex: ripple, IBM Food trust
+- hybrid b/w public and pvt
+- characteristics:
+	- permissioned
+	- semi decentralised
+	- multi party consensus
+- adv
+	- risk sharing
+- applications:
+	- finance and banking
+	- suppy chain and logistics
+	- insurance
+	- healthcare
+## Hybrid blockchain:
+- blend public and pvt
+- controlled access
+- anon entity
+- auth req
+- ex: dragonchain
+- pvt network:
+	- data -> algorithmic transformation -> public key -> hash generated
+- public network:
+	- verify hash and timestamp
+
+## Permission-less Blockchain:
+- open env
+- over large n/w of participants
+- users need not know the identity of peers
+- system is tamper proof
+- for bitcoin txns are "pseudo-anonymous"
+- "address" in bitcoin = "acc no" in bank
+- wallet listens for txns
+- actual txn is open to all
+- longest chain of blocks is the accepted chain from the tree of added blocks
+	- allows to share globally accepted view of the blockchain
+	- needs energy to add new blocks and replace
+- blocks that are not in the chain but verified are "orphan blocks"
+	- remain in network just not in the main chain
+## Architecture:
+- application layer
+- consensus layer
+- storage layer
+## Actors:
+- architect
+- user
+- regulator
+- developer
+- operator
+- membership services
+- traditional processing platform
+- traditional data sources
+## Permissioned blockchain:
+- repeated
+## Hyperledger Fabric:
+- see slides
+- 
