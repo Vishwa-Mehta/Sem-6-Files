@@ -126,6 +126,7 @@
 - has data, functions, access specifiers, getter and setters
 - many languages to write smart contracats - ex Solidity
 ![Pasted image 20230126191138.pn](./7.png)
+![7](https://user-images.githubusercontent.com/83157662/217571846-ce5262c2-731c-49c5-a730-b6db04a930f9.png)
 - Parts of the code:
 	- **pragma**: specifies version of solidity used
 	- **contract**:  specifies the start of the contract
@@ -167,6 +168,7 @@
 - for a transfer - amt + trget addr + fees/gas points
 - the fees are transfered to the accs
 ![Pasted image 20230126211114.png](./8.png)
+![8](https://user-images.githubusercontent.com/83157662/217571917-34b76c0c-8065-4c79-b7e1-7564858c4827.png)
 - eth node - computational sys representing the bussiness entity or the individual participant
 - eth full node - hosts s/w for txn init, validation, etc...
 - smart contract - designed, developed compiled, deployed on the EVM 
@@ -288,6 +290,7 @@
 	- all the elements in block header incl txn root and state root hashes
 	- using Keccak
 ![Pasted image 20230208193547.png](./9.png)
+![9](https://user-images.githubusercontent.com/83157662/217571985-e2f3c44f-ba09-40e2-a723-f9bcb0dd91c8.png)
 - typical block - 2000 txns - bitcoin and 100 txns - ethereum
 - merkle tree hash
 	- used for computing state root hash as only hash of "changed" states have to be computed
@@ -295,6 +298,7 @@
 	- every state change requires root hash re-computation not all states
 	- only affected path in the merkle tree re-computed
 ![Pasted image 20230208194109.png](./10.png)
+![10](https://user-images.githubusercontent.com/83157662/217572009-22b857a3-8b1f-49e0-b16a-1ed1ec56e149.png)
 
 - block hash computation:
 	- state root hash + txn root hash + receipt root hash + all other header items + variable nonce --keccak-256--> proof of work solved
