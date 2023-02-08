@@ -1,0 +1,23 @@
+package classPrograms;
+import java.util.Scanner;
+
+public class Fibonacci {
+
+	public static int fibonacci(int a, int b, int n) {
+		if(b <= n) {
+			System.out.println(a+b);
+		}
+		return fibonacci(b, a+b, n);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter n:");
+		int n = sc.nextInt();
+		System.out.println("The series is:");
+		System.out.println(0);
+		System.out.println(1);
+		fibonacci(0, 1, n);
+	}
+
+}
