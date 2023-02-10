@@ -2,3 +2,4 @@
 335_BC/Coursera_Notes/*.png
 */.metadata/
 */bin/
+*.class
