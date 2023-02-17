@@ -7,6 +7,8 @@
 - executing and confirming the txns
 #### Trust trail:
 ![Pasted image 20230212092618.png](./11.png)
+![11](https://user-images.githubusercontent.com/83157662/219671113-ee0084f0-f6d3-4e2b-99c3-0b804b7de440.png)
+
 - validate txn and check resources:
 	- in bitcoin - about 20 criteria to do this
 	- in ethereum txn - syntax, txn sign and hash, time stamp, nonce, gas limit, sender acc balance, fuel/gas points for smart contract exec is also checked.
@@ -33,6 +35,8 @@
 	- impolementations in both bitcoin and ethereum is different
 - other approaches also there like Proof of Stake and Proof of Elapsed Time
 ![Pasted image 20230212100912.png](./12.png)
+![12](https://user-images.githubusercontent.com/83157662/219671217-1be2f748-4abc-4ce8-9fc3-77e71b92be80.png)
+
 ## Robustness:
 - how to manage exceptions satisfactorily?? Robustness
 - exceptions that can occur in a blockchain:
