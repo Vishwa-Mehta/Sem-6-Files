@@ -1,0 +1,35 @@
+Arrays:
+- contiguous mem allocation
+- can be of any type
+- 1D, 2D
+- Declaration:	dt[] arrname;
+
+- java.util.Arrays:
+
+	- functions available: binarySearch(), asList(), toString(), equals(), sort()
+	- usage: Arrays.function_name();
+
+- List class:
+	- allows storing of NULL unlike arrays
+	- java.util
+	- funtions: size(), clear(), add(), Add(), etc.
+
+- Stack class:
+	- public class Stack<E> extends Vector<E>
+	- special kind of List itself
+	- interfaces:
+		- serailizable
+		- cloneable
+		- iterable
+		- collection
+		- list
+		- random access
+	- methods: empty(), push(E item), pop(), peek(), search(Object o)
+
+- 2 classes : College, Student
+- college: college name - static
+- student members of the student private (get and set methods) - name, age, college name - pass this as college name , semester, section, marks[arr], total marks
+- 3objs of student, get all vals except total
+- get total and 
+- college name recieved by a method where it gets the objs from the college class
+- mthd in student gets the college class obj as input setCollegeName(College o1) { new college.name = ___; } --> composition 

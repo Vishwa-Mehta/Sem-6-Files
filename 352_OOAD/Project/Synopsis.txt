@@ -1,3 +1,5 @@
+Team 9
+
 major features: 
 login using card number and pin
 deposit 
@@ -14,3 +16,10 @@ Synopsis:
 A software application that simulates an ATM Interface. 
 The functionality would include user login using the card number and pin, along with deposit, withdrawal and fund transfer. 
 The user would also be able to generate a pin on first login and view transaction records or even basic account details.
+
+
+Use Case:
+
+actors: user, bank server
+use case subject: ATM
+use cases: 
