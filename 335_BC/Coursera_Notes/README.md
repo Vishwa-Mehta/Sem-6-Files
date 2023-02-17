@@ -1,1 +1,1 @@
-This repo contains my notes and assignments of the **Blockchain Basics** Course available on Coursera.
+#### This directory contains my notes and assignments of the **Blockchain Basics** Course available on Coursera.
