@@ -1,0 +1,18 @@
+MaxSizeR = ?
+No. of blocks occupied by the Relation R = B = ?
+
+Buffer size = 2^16
+Main mem = 2^30
+No. of buffers = 2^30/ 2^16 = 2^14 = M
+
+
+From formula:
+B <= M^2 ~ B = M^2 = 2^28 = B(max)
+
+Now MaxSizeR = B(max) * Buff size = 2^28 * 2^16 = 2^44 bytes
+
+
+
+-------------
+query processed:
+evaluation (find cost) --> execution (actually execute) - done by query exec engine
